@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "release": "models-2026.09.17.1",
+  "repository": "fineday586/EasyPhoto-models",
+  "models": [
+    {
+      "id": "hat",
+      "name": "Real_HAT_GAN_SRx4",
+      "purpose": "AI clarity / 1x and 2x enhancement",
+      "version": "models-2026.09.17.1",
+      "format": "coreml-mlpackage",
+      "minimumMacOS": "15",
+      "license": "Apache-2.0",
+      "asset": "hat-models-2026.09.17.1.zip",
+      "url": "https://github.com/fineday586/EasyPhoto-models/releases/download/models-2026.09.17.1/hat-models-2026.09.17.1.zip",
+      "bytes": 104339254,
+      "sha256": "da4eed8c2964a9f0c14efed86aeb87cb65b4e12f134cb06acfd44cbfb50ed537",
+      "unpackedBytes": 270024996,
+      "entryPoint": "Real_HAT_GAN_SRx4.mlpackage",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11342,
+          "sha256": "a91d57ebad8955a1757be7891ca2da8e07493e662f0e34e1e1926571e05f37fc"
+        },
+        {
+          "path": "NOTICE.txt",
+          "bytes": 428,
+          "sha256": "26efe17433b950ae6d2f56440e2f68575533094b54904d6d0f39f84d546b7e6c"
+        },
+        {
+          "path": "Real_HAT_GAN_SRx4.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+          "bytes": 879818,
+          "sha256": "08df241da9b24fb371b1cb68267ec06aeab5c673cbf5abb5257796693c3f3111"
+        },
+        {
+          "path": "Real_HAT_GAN_SRx4.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+          "bytes": 269130432,
+          "sha256": "1fd9b53317af349c2edbcb1a83d162befef55b1f5540dfebdb7c986607765840"
+        },
+        {
+          "path": "Real_HAT_GAN_SRx4.mlpackage/Manifest.json",
+          "bytes": 617,
+          "sha256": "98cda623144c894aaaa56af8f79d1361ac1bc747ffb35b78806f731e73e5a027"
+        },
+        {
+          "path": "provenance.json",
+          "bytes": 2359,
+          "sha256": "8e80ffda47433efb183f275b87bf610920d09ad2a2f47ee3aadb30e347da6099"
+        }
+      ]
+    },
+    {
+      "id": "lama",
+      "name": "LaMa",
+      "purpose": "Object removal / inpainting",
+      "version": "models-2026.09.17.1",
+      "format": "coreml-mlpackage",
+      "minimumMacOS": "14",
+      "license": "Apache-2.0",
+      "asset": "lama-models-2026.09.17.1.zip",
+      "url": "https://github.com/fineday586/EasyPhoto-models/releases/download/models-2026.09.17.1/lama-models-2026.09.17.1.zip",
+      "bytes": 189890243,
+      "sha256": "20e1d076b9851a986d47f235635625a8f77f01dee9bbefffa78a37a74577e27c",
+      "unpackedBytes": 205342187,
+      "entryPoint": "LaMa.mlpackage",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11348,
+          "sha256": "4ceeeac5a802e86c413c22b16cce8e9a22027b0250c97e6f8ac97c14cf0542c0"
+        },
+        {
+          "path": "LaMa.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+          "bytes": 1241075,
+          "sha256": "a474d7b3cd25d822512cf080c8216e36bc522fc1484a2525f68b59659810eace"
+        },
+        {
+          "path": "LaMa.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+          "bytes": 204086656,
+          "sha256": "eb7665e534d844c16dfee9077b0c83f980b11d59e7c256399015bc3cfb29dcfa"
+        },
+        {
+          "path": "LaMa.mlpackage/Manifest.json",
+          "bytes": 617,
+          "sha256": "3ab3ca15705c1bacf387d1644700506389f9b5f4a7c1fecc314f987209d0c372"
+        },
+        {
+          "path": "NOTICE.txt",
+          "bytes": 408,
+          "sha256": "4c77f5be553c8d95fb65cdd36c3dad91293b2a8ac8f2cc6fa5789cbcfda3ff1d"
+        },
+        {
+          "path": "provenance.json",
+          "bytes": 2083,
+          "sha256": "a46005fc27bcf87ae55d01d21e354298a4c793b40ea1b1db315e28ba7a762458"
+        }
+      ]
+    },
+    {
+      "id": "nafnet",
+      "name": "NAFNet-SIDD",
+      "purpose": "Sensor-noise reduction",
+      "version": "models-2026.09.17.1",
+      "format": "coreml-mlpackage",
+      "minimumMacOS": "14",
+      "license": "MIT",
+      "asset": "nafnet-models-2026.09.17.1.zip",
+      "url": "https://github.com/fineday586/EasyPhoto-models/releases/download/models-2026.09.17.1/nafnet-models-2026.09.17.1.zip",
+      "bytes": 108413093,
+      "sha256": "3c20043a88eaa2d83ac3e4f2a978bee3f6a2fee0584d81386a476ddb1f7025f4",
+      "unpackedBytes": 117161396,
+      "entryPoint": "NAFNet-SIDD.mlpackage",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 12466,
+          "sha256": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad"
+        },
+        {
+          "path": "NAFNet-SIDD.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+          "bytes": 533504,
+          "sha256": "4c47cf664883d3feec114e08d1fab9dfcf2fd39fd4de0b21a4fc298a07435fc4"
+        },
+        {
+          "path": "NAFNet-SIDD.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+          "bytes": 116613632,
+          "sha256": "5800676347ee8512f1a1845faed5c7d61a65c561bfb1800e9eae8b642a192cf7"
+        },
+        {
+          "path": "NAFNet-SIDD.mlpackage/Manifest.json",
+          "bytes": 617,
+          "sha256": "33916d202b7cfdde409e1bd2a64a299b659ad7340b9b1401c9de9bef98e747ac"
+        },
+        {
+          "path": "NOTICE.txt",
+          "bytes": 410,
+          "sha256": "7b496b64c8e866b5e2d48ba674951053ffcb9448038d574a8ac19ea26904dd1e"
+        },
+        {
+          "path": "provenance.json",
+          "bytes": 767,
+          "sha256": "bfc653bfb79c9c4035076b1f155804f4e56813022ef182399ea3885a7cf7675a"
+        }
+      ]
+    },
+    {
+      "id": "restormer",
+      "name": "Restormer-Motion",
+      "purpose": "Motion deblurring",
+      "version": "models-2026.09.17.1",
+      "format": "coreml-mlpackage",
+      "minimumMacOS": "14",
+      "license": "MIT",
+      "asset": "restormer-models-2026.09.17.1.zip",
+      "url": "https://github.com/fineday586/EasyPhoto-models/releases/download/models-2026.09.17.1/restormer-models-2026.09.17.1.zip",
+      "bytes": 97091202,
+      "sha256": "8b82ea17e933e8cd65d38473129108b5b9c12c37ea0c54d44a8cade39937ef1a",
+      "unpackedBytes": 105358676,
+      "entryPoint": "Restormer-Motion.mlpackage",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1090,
+          "sha256": "2b93776512924bc095ec5d97a79d76cf1ab401ae641d1ae1f46e94f1c53a2e59"
+        },
+        {
+          "path": "NOTICE.txt",
+          "bytes": 410,
+          "sha256": "df0544267f1e627e3f6e4375c0bd15c2d4fcfb48d57f8ccb277aa12a760c3bdb"
+        },
+        {
+          "path": "Restormer-Motion.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+          "bytes": 819001,
+          "sha256": "fe8199579da54c017e8865827cdba098b3ba8dfe4a18b38cfa9ae0c6db1d10e2"
+        },
+        {
+          "path": "Restormer-Motion.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+          "bytes": 104535424,
+          "sha256": "0ee4b104d8fa20b9c0c4ccb4a7abeaee948a3128eac504fa6a55a326e742c320"
+        },
+        {
+          "path": "Restormer-Motion.mlpackage/Manifest.json",
+          "bytes": 617,
+          "sha256": "0700f4b1ca95ed9868bf82939c87e012d4545cde4278e50b58b4a6f8e42489ba"
+        },
+        {
+          "path": "provenance.json",
+          "bytes": 2134,
+          "sha256": "a3d9a05533d2f9e205d2c2aa959601e3fd1f56fbeb668161a04f134e6e9dee2b"
+        }
+      ]
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "purpose": "Local multilingual transcription with Silero VAD",
+      "version": "models-2026.09.17.1",
+      "format": "ggml",
+      "minimumMacOS": "14",
+      "license": "MIT",
+      "asset": "whisper-models-2026.09.17.1.zip",
+      "url": "https://github.com/fineday586/EasyPhoto-models/releases/download/models-2026.09.17.1/whisper-models-2026.09.17.1.zip",
+      "bytes": 446943567,
+      "sha256": "3dd5b979191f8694df86e9aebe5338e353b9692481b6c19d5d7a415cc76b41f8",
+      "unpackedBytes": 488491384,
+      "entryPoint": "Whisper/ggml-small.bin",
+      "files": [
+        {
+          "path": "NOTICE.txt",
+          "bytes": 415,
+          "sha256": "2429b790437c8b7d7899947a095132413f17ac43da7a51d8b07aea5cd3d38b75"
+        },
+        {
+          "path": "Whisper/ggml-silero-v5.1.2.bin",
+          "bytes": 885098,
+          "sha256": "29940d98d42b91fbd05ce489f3ecf7c72f0a42f027e4875919a28fb4c04ea2cf"
+        },
+        {
+          "path": "Whisper/ggml-small.bin",
+          "bytes": 487601967,
+          "sha256": "1be3a9b2063867b937e64e2ec7483364a79917e157fa98c5d94b5c1fffea987b"
+        },
+        {
+          "path": "provenance.json",
+          "bytes": 688,
+          "sha256": "c01a1bb4cf65756e0c39cc111124279093a1a407fb7ccaeb21e722a1f049ec57"
+        },
+        {
+          "path": "silero-LICENSE.txt",
+          "bytes": 1075,
+          "sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b"
+        },
+        {
+          "path": "whisper-LICENSE.txt",
+          "bytes": 1078,
+          "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+        },
+        {
+          "path": "whisper-weights-LICENSE.txt",
+          "bytes": 1063,
+          "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+        }
+      ]
+    }
+  ]
+}
